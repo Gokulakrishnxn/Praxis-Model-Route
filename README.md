@@ -278,6 +278,28 @@ Praxis/
 └── tests/                 # E2E tests
 ```
 
+## vercel-template.json
+{
+  "products": [
+    {
+      "type": "integration",
+      "protocol": "storage",
+      "productSlug": "neon",
+      "integrationSlug": "neon"
+    },
+    {
+      "type": "integration",
+      "protocol": "storage",
+      "productSlug": "upstash-kv",
+      "integrationSlug": "upstash"
+    },
+    {
+      "type": "blob"
+    }
+  ]
+}
+
+
 ## Scripts
 
 | Script | Description |
